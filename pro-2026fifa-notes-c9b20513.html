@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2026 世界杯前瞻 · 从球场到生活</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background-color: #fafbfc;
+            color: #1e2a3a;
+            line-height: 1.7;
+            letter-spacing: 0.01em;
+        }
+
+        .page {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* ---- hero ---- */
+        .hero {
+            padding: 72px 0 48px;
+            text-align: center;
+            border-bottom: 1px solid #e9edf0;
+        }
+
+        .hero h1 {
+            font-size: 2.6rem;
+            font-weight: 600;
+            letter-spacing: -0.02em;
+            color: #0b1c2e;
+            line-height: 1.2;
+            margin-bottom: 16px;
+        }
+
+        .hero h1 span {
+            display: inline-block;
+            background: linear-gradient(145deg, #0b3b5c, #1f6d8f);
+            color: #fff;
+            padding: 0 12px 2px;
+            border-radius: 4px;
+        }
+
+        .hero p {
+            max-width: 560px;
+            margin: 0 auto;
+            color: #3f5468;
+            font-size: 1rem;
+            padding: 0 8px;
+        }
+
+        /* ---- section common ---- */
+        section {
+            padding: 48px 0;
+            border-bottom: 1px solid #eef2f5;
+        }
+
+        section:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 500;
+            letter-spacing: -0.01em;
+            margin-bottom: 20px;
+            color: #0f2a3e;
+        }
+
+        h3 {
+            font-size: 1.1rem;
+            font-weight: 500;
+            margin: 24px 0 8px;
+            color: #1a3f58;
+        }
+
+        p {
+            margin-bottom: 16px;
+            color: #2c4053;
+        }
+
+        a {
+            color: #1f6d8f;
+            text-decoration: none;
+            border-bottom: 1px solid #cbd8e3;
+            transition: border-color 0.15s, color 0.15s;
+        }
+
+        a:hover {
+            color: #0a4b6a;
+            border-bottom-color: #0a4b6a;
+        }
+
+        /* ---- feature grid (优势区) ---- */
+        .feature-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px 32px;
+            margin: 8px 0 4px;
+        }
+
+        .feature-item {
+            background: #ffffff;
+            padding: 20px 20px 16px;
+            border-radius: 12px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.02), 0 4px 12px rgba(0,20,30,0.04);
+        }
+
+        .feature-item h4 {
+            font-weight: 500;
+            font-size: 1rem;
+            margin-bottom: 6px;
+            color: #12364d;
+        }
+
+        .feature-item p {
+            font-size: 0.92rem;
+            color: #3f566a;
+            margin-bottom: 0;
+        }
+
+        /* ---- quote / highlight ---- */
+        .highlight-box {
+            background: #edf3f8;
+            border-left: 4px solid #1f6d8f;
+            padding: 20px 24px;
+            border-radius: 0 10px 10px 0;
+            margin: 28px 0 16px;
+        }
+
+        .highlight-box p {
+            margin-bottom: 0;
+            font-size: 0.98rem;
+        }
+
+        /* ---- FAQ summary ---- */
+        .faq-list {
+            margin-top: 8px;
+        }
+
+        .faq-item {
+            padding: 14px 0;
+            border-bottom: 1px dashed #dde3e9;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-q {
+            font-weight: 500;
+            color: #0f2a3e;
+            margin-bottom: 4px;
+        }
+
+        .faq-a {
+            font-size: 0.92rem;
+            color: #3f566a;
+        }
+
+        /* ---- footer ---- */
+        .footer-links {
+            padding: 32px 0 48px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #5b7085;
+        }
+
+        .footer-links a {
+            margin: 0 8px;
+        }
+
+        /* ---- responsive ---- */
+        @media (max-width: 560px) {
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .feature-grid {
+                grid-template-columns: 1fr;
+                gap: 16px;
+            }
+
+            .page {
+                padding: 0 20px;
+            }
+
+            section {
+                padding: 36px 0;
+            }
+
+            .hero {
+                padding: 56px 0 32px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="page">
+        <!-- hero -->
+        <header class="hero">
+            <h1>下一届<span>世界杯</span>，已经不远</h1>
+            <p>不只是四年一次的狂欢，也是一段可以提前感受的旅程。2026 年，北美三国联合主办，比赛将在更广阔的版图上展开。</p>
+        </header>
+
+        <!-- 优势区：为什么现在关注 -->
+        <section>
+            <h2>为什么现在就可以关注</h2>
+            <div class="feature-grid">
+                <div class="feature-item">
+                    <h4>赛程更清晰</h4>
+                    <p>48 支球队，104 场比赛——扩军后的赛制已经公布，小组赛与淘汰赛的节奏更紧凑，也给了更多球队亮相的机会。</p>
+                </div>
+                <div class="feature-item">
+                    <h4>城市与球场</h4>
+                    <p>从温哥华到墨西哥城，16 座承办球场分布在三个时区。有的球场海拔超过 2200 米，有的则是经典室内球场。</p>
+                </div>
+                <div class="feature-item">
+                    <h4>观赛方式在变</h4>
+                    <p>直播平台、现场观赛、球迷活动……2026 年的观看体验会比以往更灵活。很多第三方服务已经提前开放了兴趣登记。</p>
+                </div>
+                <div class="feature-item">
+                    <h4>周边与旅行</h4>
+                    <p>北美城市的住宿、航班、当地交通都在逐步进入赛事节奏。提前了解信息，可以让行程更从容。</p>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <p>如果你对赛程、球队或主办城市感兴趣，可以先去 <a href="https://pro-2026fifa.com">世界杯</a> 看看基础信息——不需要等到开赛前才做功课。</p>
+            </div>
+        </section>
+
+        <!-- 说明区：从球场到生活 -->
+        <section>
+            <h2>世界杯背后，还有这些事</h2>
+            <p>很多人聊到世界杯，首先想到的是比赛结果、球星和冠军归属。但实际上，一届大赛从筹备到落幕，会影响很多日常层面。</p>
+            <p>比如主办城市的公共空间改造、志愿者体系、临时交通调整，以及当地社区如何与来自世界各地的球迷互动。这些细节往往在赛前一年就开始运行。</p>
+            <h3>一些值得留意的变化</h3>
+            <p>2026 年将首次由三个国家联合主办，这意味着球迷可能在一周内跨越国境看球。签证政策、边境通行、货币兑换……这些原本不在看球计划里的环节，这次会变得更重要。不少旅行类平台已经在更新相关的攻略内容。</p>
+            <p>同时，本届也是第一届真正意义上的 48 队世界杯，小组赛阶段将分成 12 个小组，每组 4 队。出线规则和淘汰赛对阵逻辑已经确定，但具体抽签要等到 2025 年底。因此现在关注，更多是了解框架和可能性。</p>
+        </section>
+
+        <!-- FAQ 摘要 -->
+        <section>
+            <h2>几个大家常问的问题</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-q">2026 年世界杯什么时候开始？</div>
+                    <div class="faq-a">计划在 2026 年 6 月开幕，决赛安排在 7 月第三个周末。具体日期以官方公布为准。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">在哪几个城市举办？</div>
+                    <div class="faq-a">美国 11 个城市（包括纽约、洛杉矶、达拉斯、迈阿密等）、加拿大 2 个城市（温哥华、多伦多）、墨西哥 3 个城市（墨西哥城、瓜达拉哈拉、蒙特雷）。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">现在需要做什么准备？</div>
+                    <div class="faq-a">不需要着急，但可以开始留意意向城市的住宿和机票趋势。如果想了解赛程框架，可以参考 <a href="https://pro-2026fifa.com">世界杯</a> 上的基础信息页面，信息比较结构化。</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-q">票务什么时候开放？</div>
+                    <div class="faq-a">官方售票通常在大赛前一年左右启动。目前只有少数授权代理开放了“兴趣登记”，请通过正规渠道留意后续通知。</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 底部链接 -->
+        <div class="footer-links">
+            <span>了解更多 —</span>
+            <a href="https://pro-2026fifa.com">世界杯</a>
+            <span style="margin:0 6px;color:#bccad8;">·</span>
+            <a href="#" style="border-bottom:1px solid transparent;color:#5b7085;">主办城市</a>
+            <span style="margin:0 6px;color:#bccad8;">·</span>
+            <a href="#" style="border-bottom:1px solid transparent;color:#5b7085;">赛程概览</a>
+        </div>
+    </div>
+</body>
+</html>
